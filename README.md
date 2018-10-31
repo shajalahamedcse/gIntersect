@@ -7,7 +7,7 @@ Only prints those words that are both in [File A] and [File B]
     Prints out the lines that are both in [File A] and [File B]
 
 
-#Example
+# Example
 
     $ cat FileA.txt
     hello
@@ -18,6 +18,7 @@ Only prints those words that are both in [File A] and [File B]
     world
 
 
-#Memory
-**gIntersect** reads the contents of **FileA.txt** into memory then compares it with **FileB.txt** . So performance will deteriorate for very large **FileA.txt** file.
+# Memory
+
+**gIntersect** reads the contents of **[FileA.txt]** into (hashmap) memory then compares it with **[FileB.txt]** . So performance will deteriorate for very large **[FileA.txt]** file.
 
