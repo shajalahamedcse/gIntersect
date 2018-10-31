@@ -19,7 +19,19 @@ Only prints those words that are both in [File A] and [File B]
     world
     $ gIntersect FileA.txt FileB.txt
     world
+    
+# Performance
 
+    $ time grep -w FileA.txt FileB.txt
+    real    0m0.028s
+    user    0m0.003s
+    sys     0m0.000s
+    
+    $ time ./main FileA.txt FileB.txt
+    real    0m0.004s
+    user    0m0.001s
+    sys     0m0.004s
+    
 
 # Memory
 
