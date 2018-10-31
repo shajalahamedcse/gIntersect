@@ -1,3 +1,6 @@
+                                                    ![gIntersect](../master/static/intersect.png)
+
+
 # gIntersect
 
 Only prints those words that are both in [File A] and [File B]
@@ -20,5 +23,6 @@ Only prints those words that are both in [File A] and [File B]
 
 # Memory
 
-**gIntersect** reads the contents of **[FileA.txt]** into (hashmap) memory then compares it with **[FileB.txt]** . So performance will deteriorate for very large **[FileA.txt]** file.
+**gIntersect** reads the contents of **[FileA.txt]** into (hashmap) memory then compares it with **[FileB.txt]** . 
+So performance will deteriorate for very large **[FileA.txt]** file.
 
