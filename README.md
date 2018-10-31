@@ -1,4 +1,4 @@
-                                ![gIntersect](https://github.com/shajalahamedcse/gIntersect/blob/master/static/intersect.png)
+                               ![intersect](https://user-images.githubusercontent.com/6688793/47782588-c481b580-dd2a-11e8-8b85-5c211f198f6b.png)
 
 
 # gIntersect
